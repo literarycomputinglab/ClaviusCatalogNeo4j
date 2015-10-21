@@ -13,6 +13,7 @@ import org.neo4j.ogm.annotation.Relationship;
  *
  * @author oakgen
  */
+
 @NodeEntity
 public class Folder extends SuperNode {
 
@@ -81,7 +82,11 @@ public class Folder extends SuperNode {
         }
     }
 
-    public boolean removeFoolder(Annotation<? extends Content, FileAnnotationExtension> file) {
+    public boolean removeFilz(Annotation<? extends Content, FileAnnotationExtension> filz) {
+        return filez.remove(filz);
+    } // attenzione!!! Remove File!
+    
+     public boolean removeFile(Source file) {
         return files.remove(file);
     } // attenzione!!! Remove File!
 }
