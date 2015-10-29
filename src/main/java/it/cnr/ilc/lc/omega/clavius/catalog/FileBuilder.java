@@ -1,13 +1,13 @@
 package it.cnr.ilc.lc.omega.clavius.catalog;
 
 import it.cnr.ilc.lc.omega.clavius.catalog.entity.FileAnnotationExtension;
-import it.cnr.ilc.lc.omega.entity.Builder;
+import it.cnr.ilc.lc.omega.entity.AnnotationBuilder;
 
 /**
  *
  * @author oakgen
  */
-public class FileBuilder implements Builder<FileAnnotationExtension> {
+public class FileBuilder implements AnnotationBuilder<FileAnnotationExtension> {
 
     private String name;
     
