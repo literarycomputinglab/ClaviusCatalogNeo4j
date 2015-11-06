@@ -6,7 +6,7 @@ import it.cnr.ilc.lc.omega.entity.Annotation;
  *
  * @author oakgen
  */
-public class FileAnnotationExtension extends Annotation.Extension {
+public class FileAnnotationExtension extends Annotation.Type {
 
     private String name;
 
